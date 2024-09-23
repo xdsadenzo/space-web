@@ -2,6 +2,8 @@ import React from 'react'
 import bgVideo from "./assets/earth-bg.mp4"
 import Navbar from './components/navbar/navbar'
 import Hero from './components/hero/hero'
+import Services from './components/services/services'
+
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ className='fixed top-0 right-0 h-[700px] w-full object-cover z[-1]'
 <Navbar/>
 <Hero/>
       </div>
+      {/* Services Cards Section */}
+      <Services/>
     </div>
   )
 }
