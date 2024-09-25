@@ -1,4 +1,5 @@
 import React from 'react'
+import Mountainpng from '../../assets/moon-surface-hd.png'
 
 const Hero = () => {
   return (
@@ -22,6 +23,10 @@ const Hero = () => {
           <div></div>
         </div>
       </div>
+      {/* surgace section  */}
+      <img src={Mountainpng} alt="" className='absolute bottom-0 right-0 z-10 w-full brightness-50'/>
+      {/* bottom gradient section */}
+      <div className='absolute bottom-0 z-30 w-full bg-gradient-to-b from-transparent from-10% to-black to-90% h-[20px] sm:h-[50px] md:[60px] '></div>
     </div>
   )
 }

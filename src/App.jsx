@@ -3,6 +3,8 @@ import bgVideo from "./assets/earth-bg.mp4"
 import Navbar from './components/navbar/navbar'
 import Hero from './components/hero/hero'
 import Services from './components/services/services'
+import Banner from './components/banner/banner'
+import Banner2 from './components/banner/banner2'
 
 
 export default function App() {
@@ -20,6 +22,10 @@ className='fixed top-0 right-0 h-[700px] w-full object-cover z[-1]'
       </div>
       {/* Services Cards Section */}
       <Services/>
+      {/* banner section */}
+      <Banner/>
+      <Banner2/>
+    
     </div>
   )
 }
