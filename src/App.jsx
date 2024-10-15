@@ -5,9 +5,20 @@ import Hero from './components/hero/hero'
 import Services from './components/services/services'
 import Banner from './components/banner/banner'
 import Banner2 from './components/banner/banner2'
+import Footer from './components/footer/footer'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 export default function App() {
+
+React.useEffect(() => {
+  AOS.init({
+    duration: 1200,
+    easing: "ease-in-out",
+  });
+});
+
   return (
     <div>
       <div className='h-[700px] relative ' >
@@ -25,7 +36,7 @@ className='fixed top-0 right-0 h-[700px] w-full object-cover z[-1]'
       {/* banner section */}
       <Banner/>
       <Banner2/>
-    
+    <Footer/>
     </div>
   )
 }

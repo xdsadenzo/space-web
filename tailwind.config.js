@@ -6,16 +6,14 @@ export default {
   ],
   theme: {
     extend: {
-      container:{
-        center:true,
-        padding:{
-          dafault: "1rem",
+      container: {
+        center: true,
+        padding: {
+          default: "1rem", // Corrected 'dafault' to 'default'
           sm: "2rem",
         },
-
       },
     },
   },
   plugins: [],
 }
-

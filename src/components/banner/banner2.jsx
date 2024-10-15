@@ -10,13 +10,13 @@ const Banner2 = () => {
             
             
             <div className='p-4 space-y-3 border-b-2 border-l-2 xl:pr-36 border-l-sky-800 border-b-sky-800 '>
-                <p className='uppercase text-sky-800'>Our Mission </p>
-                <h1 className='text-5xl uppercase'>Rapidcast</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae consequatur facilis nobis sapiente ad sint, odio fugiat quis dolor veniam adipisci perferendis reiciendis?</p>
-            <button className='primary-button'>Learn More</button>
+                <p data-aos="fade-up" className='uppercase text-sky-800'>Our Mission </p>
+                <h1 data-aos="fade-up" data-aos-delay="300" className='text-5xl uppercase'>Rapidcast</h1>
+                <p data-aos="fade-up" data-aos-delay="500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae consequatur facilis nobis sapiente ad sint, odio fugiat quis dolor veniam adipisci perferendis reiciendis?</p>
+            <button data-aos="fade-up" data-aos-delay="700" className='primary-button'>Learn More</button>
             </div>
             <div>
-            <img src={satelliteImage} alt="" />
+            <img data-aos="zoom-in" src={satelliteImage} alt="" className='w-full sm:w=[80%] mx-auto max-h-[350px] object-cover' /> 
      </div>
         </div>
       </div>
